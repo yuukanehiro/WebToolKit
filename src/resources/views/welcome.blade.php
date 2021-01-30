@@ -135,9 +135,7 @@
                         data-ad-format="auto"
                         data-full-width-responsive="true"></ins>
                     <script>
-                        window.onload = function() {
-                            (adsbygoogle = window.adsbygoogle || []).push({});
-                        }
+                        $(document).ready(function(){(adsbygoogle = window.adsbygoogle || []).push({})})
                     </script>
 
                     <div class="ml-4 text-center text-sm text-gray-500 sm:text-right sm:ml-0">
