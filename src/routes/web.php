@@ -16,3 +16,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+// 訪問者情報取得ツール
+Route::prefix('your-info')->group(function () {
+    Route::namespace('YourInfo')->group(function () {
+        Route::get('/', 'UserAgentController@show');
+    });
+});
