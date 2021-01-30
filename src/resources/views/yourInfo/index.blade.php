@@ -45,13 +45,13 @@
             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
             <!-- 記事最下部 上段 -->
             <ins class="adsbygoogle"
-                 style="display:block"
-                 data-ad-client="ca-pub-2081767757854767"
-                 data-ad-slot="4653756802"
-                 data-ad-format="auto"
-                 data-full-width-responsive="true"></ins>
+                style="display:block"
+                data-ad-client="ca-pub-2081767757854767"
+                data-ad-slot="4653756802"
+                data-ad-format="auto"
+                data-full-width-responsive="true"></ins>
             <script>
-                 (adsbygoogle = window.adsbygoogle || []).push({});
+                (adsbygoogle = window.adsbygoogle || []).push({});
             </script>
 
         </div>
