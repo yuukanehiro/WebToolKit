@@ -58,7 +58,7 @@
                   <h3 class="mb-0">
                       <a class="text-dark" href="#">JSONツール(開発中)</a>
                   </h3>
-                  <p class="card-text mb-auto">JSONに関する開発ツールです。開発中</a>
+                  <p class="card-text mb-auto">JSONに関する開発ツールです。開発中</a></p>
                   <a href="#">ツールへ</a>
                 </div>
                 {{-- <img class="card-img-right flex-auto d-none d-lg-block" data-src="holder.js/200x250?theme=thumb" alt="Card image cap"> --}}
