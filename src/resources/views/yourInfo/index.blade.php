@@ -48,6 +48,8 @@
             <li class="list-group-item">{{{ $my_information['user_agent'] }}}</li>
         </ul>
 
+        <hr/>
+
 
         <div class="row mb-2">
             <div class="col-md-6">
