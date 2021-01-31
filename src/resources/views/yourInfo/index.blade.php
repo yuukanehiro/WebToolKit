@@ -8,7 +8,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>アクセス情報確認 IPアドレスやブラウザ情報を確認</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -35,7 +35,7 @@
         <header class="blog-header py-3">
             <div class="row flex-nowrap justify-content-between align-items-center">
             <div class="col-4 text-center">
-                <a class="blog-header-logo text-dark" href="/">かんたんWEBツール</a>
+                <a class="blog-header-logo text-dark" href="/">かんたん便利 WEBツール</a>
             </div>
             </div>
         </header>
@@ -143,10 +143,6 @@
     </main><!-- /.container -->
 
     <footer class="blog-footer">
-      <p>Blog template built for <a href="https://getbootstrap.com/">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-      <p>
-        <a href="#">Back to top</a>
-      </p>
     </footer>
     <script src="../../assets/js/vendor/holder.min.js"></script>
     <script>

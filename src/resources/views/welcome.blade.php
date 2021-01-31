@@ -8,7 +8,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>かんたん便利 WEBツール</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -35,7 +35,7 @@
         <header class="blog-header py-3">
             <div class="row flex-nowrap justify-content-between align-items-center">
             <div class="col-4 text-center">
-                <a class="blog-header-logo text-dark" href="/">かんたんWEBツール</a>
+                <a class="blog-header-logo text-dark" href="/">かんたん便利 WEBツール</a>
             </div>
             </div>
         </header>
@@ -48,7 +48,7 @@
                 <h3 class="mb-0">
                     <a class="text-dark" href="/your-info"><u>アクセス情報確認</u></a>
                 </h3>
-                <p class="card-text mb-auto">IPアドレスやUser Agentを確認できるツールです。</p>
+                <p class="card-text mb-auto">あなたのIPアドレスやブラウザ情報を確認できるツールです。</p>
                 <a href="your-info">ツールへ</a>
                 </div>
                 <img class="card-img-right flex-auto d-none d-lg-block" data-src="holder.js/200x250?theme=thumb" alt="Card image cap">
@@ -132,10 +132,6 @@
     </main><!-- /.container -->
 
     <footer class="blog-footer">
-      <p>Blog template built for <a href="https://getbootstrap.com/">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-      <p>
-        <a href="#">Back to top</a>
-      </p>
     </footer>
     <script src="../../assets/js/vendor/holder.min.js"></script>
     <script>
