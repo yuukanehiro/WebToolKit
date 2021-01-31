@@ -4,8 +4,6 @@ namespace App\Http\Services;
 
 class JsonFormatService
 {
-    const FAILED_MESSAGE = "取得失敗";
-
     /**
      * JSONをきれいにして返却
      *
