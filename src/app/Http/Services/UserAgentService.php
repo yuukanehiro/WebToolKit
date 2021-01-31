@@ -4,6 +4,8 @@ namespace App\Http\Services;
 
 class UserAgentService
 {
+    const FAILED_MESSAGE = "取得失敗";
+
     /**
      * UserAgentを返却
      *
@@ -12,8 +14,8 @@ class UserAgentService
     public function getUserAgent(): array
     {
         return $response = [
-            'ip_address' => $_SERVER['REMOTE_ADDR'],
-            'user_agent' => $_SERVER['HTTP_USER_AGENT'],
+            'ip_address' => isset($_SERVER['REMOTE_ADDR']) ? $_SERVER['REMOTE_ADDR'] : self::FAILED_MESSAGE,
+            'user_agent' => isset($_SERVER['HTTP_USER_AGENT']) ? $_SERVER['HTTP_USER_AGENT'] : self::FAILED_MESSAGE,
         ];
     }
 }
