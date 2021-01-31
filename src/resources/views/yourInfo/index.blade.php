@@ -40,18 +40,14 @@
             </div>
         </header>
 
-        <div class="container">
-            <div class="panel panel-primary">
-                <div class="panel-heading">
-                    あなたのIPアドレス
-                </div>
-                <div class="panel-body">
-                    <strong>{{{ $my_information['ip_address'] }}}</strong>
-                </div>
-            </div>
-            <h2>ユーザエージェント</h2>
-            <p>{{{ $my_information['user_agent'] }}}</p>
-        </div>
+
+        <ul class="list-group">
+            <li class="list-group-item active">あなたのIPアドレス</li>
+            <li class="list-group-item">{{{ $my_information['ip_address'] }}}</li>
+            <li class="list-group-item active">User Agent(ユーザエージェント)</li>
+            <li class="list-group-item">{{{ $my_information['user_agent'] }}}</li>
+        </ul>
+
 
         <div class="row mb-2">
             <div class="col-md-6">
