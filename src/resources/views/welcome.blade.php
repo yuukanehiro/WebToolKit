@@ -19,9 +19,6 @@
 
         <!-- Styles -->
         <style>
-            .adsbygoogle {
-                width: 100%;
-            }
         </style>
 
         <style>
