@@ -18,6 +18,6 @@ class UserAgentController extends BaseController
         // UserAgent取得
         $my_information = $this->s_user_agent->getUserAgent();
 
-        return view('yourInfo.index',compact('my_information'));
+        return view('yourInfo.index', compact('my_information'));
     }
 }

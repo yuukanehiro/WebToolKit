@@ -28,6 +28,6 @@ Route::prefix('your-info')->group(function () {
 Route::prefix('json-format')->group(function () {
     Route::namespace('Json')->group(function () {
         Route::get('/', 'JsonFormatController@show');
-        Route::get('/format', 'JsonFormatController@getFormatJson');
+        Route::post('/format', 'JsonFormatController@getFormatJson');
     });
 });

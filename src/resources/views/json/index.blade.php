@@ -38,17 +38,22 @@
         </header>
 
         <ul class="list-group">
-          <form>
+          <form action="/json-format/format" method="POST">
+            @csrf
             <div class="form-group form-check">
               <li class="list-group-item active">ここにJSONを貼り付けて、整形するボタンを押してください</li>
               <label for="exampleFormControlTextarea1"></label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              <textarea class="form-control" id="exampleFormControlTextarea1" name="json" rows="3"></textarea>
             </div>
             <div align="center">
               <button type="submit" class="btn btn-primary">整形する</button>
             </div>
             <hr/>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            @if (isset( $response ))
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">{{{ $response['json'] }}}</textarea>
+            @else
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            @endif
           </form>
         </ul>
 

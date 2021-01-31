@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Json;
 use App\Http\Services\jsonFormatService;
 use Illuminate\Routing\Controller as BaseController;
 use App\Http\Requests\JsonFormatRequest;
+use Illuminate\Http\Request;
 
 class JsonFormatController extends BaseController
 {
@@ -19,11 +20,11 @@ class JsonFormatController extends BaseController
         return view('json.index');
     }
 
-    public function getFormatJson(JsonFormatRequest $request)
+    public function getFormatJson(Request $request)
     {
-        $json = $request->get('json');
+        $json = $request->input('json');
         $response = $this->s_json_format->formatJson($json);
 
-        return view('json.index', compact($response));
+        return view('json.index', compact('response'));
     }
 }
