@@ -44,6 +44,8 @@
         <ul class="list-group">
             <li class="list-group-item active">あなたのIPアドレス</li>
             <li class="list-group-item">{{{ $my_information['ip_address'] }}}</li>
+            <li class="list-group-item active">ブラウザ</li>
+            <li class="list-group-item">{{{ $my_information['browser'] }}}</li>
             <li class="list-group-item active">User Agent(ユーザエージェント)</li>
             <li class="list-group-item">{{{ $my_information['user_agent'] }}}</li>
         </ul>
