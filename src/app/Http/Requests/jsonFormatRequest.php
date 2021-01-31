@@ -10,7 +10,8 @@ class JsonFormatRequest extends FormRequest
      * 認証関係の判定の記述
      * 特にない場合はtrue
      */
-    public function authorize() {
+    public function authorize()
+    {
         return true;
     }
 
@@ -29,10 +30,10 @@ class JsonFormatRequest extends FormRequest
         ];
     }
 
-    public function validationData()
+    public function messages()
     {
-        return array_merge($this->request->all(), [
-            'json' => $this->json,
-        ]);
+        return [
+            'json' => 'JSON形式で入力してください',
+        ];
     }
 }

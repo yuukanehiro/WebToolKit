@@ -20,8 +20,9 @@ class JsonFormatController extends BaseController
         return view('json.index');
     }
 
-    public function getFormatJson(Request $request)
+    public function getFormatJson(JsonFormatRequest $request)
     {
+        \Log::debug(1);
         $json = $request->input('json');
         $response = $this->s_json_format->formatJson($json);
 
