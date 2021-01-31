@@ -101,6 +101,18 @@
 
             <p>よろしくお願い致します。</p>
             <hr>
+            <!-- Google Adsense -->
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- サイドバー3 -->
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-2081767757854767"
+                 data-ad-slot="9573242695"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
           </div><!-- /.blog-post -->
 
           {{-- <nav class="blog-pagination">
