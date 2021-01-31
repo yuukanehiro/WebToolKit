@@ -22,7 +22,6 @@ class JsonFormatController extends BaseController
 
     public function getFormatJson(JsonFormatRequest $request)
     {
-        \Log::debug(1);
         $json = $request->input('json');
         $response = $this->s_json_format->formatJson($json);
 
