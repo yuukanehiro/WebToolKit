@@ -2,7 +2,7 @@
 
 namespace App\Http\Services;
 
-class jsonFormatService
+class JsonFormatService
 {
     const FAILED_MESSAGE = "取得失敗";
 

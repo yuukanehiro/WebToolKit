@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers\Json;
 
-use App\Http\Services\JsonFormatService;
+use App\Http\Services\jsonFormatService;
 use Illuminate\Routing\Controller as BaseController;
 use App\Http\Requests\JsonFormatRequest;
 
