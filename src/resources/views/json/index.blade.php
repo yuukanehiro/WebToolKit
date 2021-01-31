@@ -37,6 +37,23 @@
             </div>
         </header>
 
+        <ul class="list-group">
+          <form>
+            <div class="form-group form-check">
+              <li class="list-group-item active">ここにJSONを貼り付けて、整形するボタンを押してください</li>
+              <label for="exampleFormControlTextarea1"></label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div align="center">
+              <button type="submit" class="btn btn-primary">整形する</button>
+            </div>
+            <hr/>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </form>
+        </ul>
+
+        <hr/>
+
         <div class="row mb-2">
             <div class="col-md-6">
             <div class="card flex-md-row mb-4 shadow-sm h-md-250">
@@ -84,6 +101,8 @@
         </div>
       </div>
 
+      <hr/>
+
 
 
     <main role="main" class="container">
@@ -130,8 +149,9 @@
             <h4 class="font-italic">管理人について</h4>
             <p>WEB開発者です。</p>
             <ol class="list-unstyled">
-              <li><a href="https://www.youtube.com/channel/UCmM3pSzBqUjqNA0MqPPsfxg">YouTube</a></li>
+              <li><a href="https://www.youtube.com/channel/UCmM3pSzBqUjqNA0MqPPsfxg">YouTube 優さんちゃんねる</a></li>
               <li><a href="https://twitter.com/yuu13n6r2">Twitter</a></li>
+              <li><a href="https://www.yuulinux.tokyo/">ブログ 優技録</a></li>
             </ol>
           </div>
         </aside>

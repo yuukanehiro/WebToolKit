@@ -66,6 +66,8 @@
             </div>
         </div>
 
+        <hr/>
+
 
         <div class="container">
             <!-- Google Adsense -->
@@ -83,6 +85,8 @@
             </script>
         </div>
       </div>
+
+      <hr/>
 
 
 
@@ -130,8 +134,9 @@
             <h4 class="font-italic">管理人について</h4>
             <p>WEB開発者です。</p>
             <ol class="list-unstyled">
-              <li><a href="https://www.youtube.com/channel/UCmM3pSzBqUjqNA0MqPPsfxg">YouTube</a></li>
-              <li><a href="https://twitter.com/yuu13n6r2">Twitter</a></li>
+                <li><a href="https://www.youtube.com/channel/UCmM3pSzBqUjqNA0MqPPsfxg">YouTube 優さんちゃんねる</a></li>
+                <li><a href="https://twitter.com/yuu13n6r2">Twitter</a></li>
+                <li><a href="https://www.yuulinux.tokyo/">ブログ 優技録</a></li>
             </ol>
           </div>
         </aside>
