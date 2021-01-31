@@ -8,7 +8,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>アクセス情報確認 IPアドレスやブラウザ情報を確認</title>
+        <title>Json整形ツール</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -19,7 +19,6 @@
 
         <!-- Styles -->
         <style>
-
         </style>
 
         <style>
@@ -38,17 +37,6 @@
             </div>
         </header>
 
-
-        <ul class="list-group">
-            <li class="list-group-item active">あなたのIPアドレス</li>
-            <li class="list-group-item">{{{ $my_information['ip_address'] }}}</li>
-            <li class="list-group-item active">ブラウザ</li>
-            <li class="list-group-item">{{{ $my_information['browser'] }}}</li>
-            <li class="list-group-item active">User Agent(ユーザエージェント)</li>
-            <li class="list-group-item">{{{ $my_information['user_agent'] }}}</li>
-        </ul>
-
-
         <div class="row mb-2">
             <div class="col-md-6">
             <div class="card flex-md-row mb-4 shadow-sm h-md-250">
@@ -57,7 +45,7 @@
                 <h3 class="mb-0">
                     <a class="text-dark" href="/your-info"><u>アクセス情報確認</u></a>
                 </h3>
-                <p class="card-text mb-auto">IPアドレスやUser Agentを確認できるツールです。</p>
+                <p class="card-text mb-auto">あなたのIPアドレスやブラウザ情報を確認できるツールです。</p>
                 <a href="your-info">ツールへ</a>
                 </div>
                 {{-- <img class="card-img-right flex-auto d-none d-lg-block" data-src="holder.js/200x250?theme=thumb" alt="Card image cap"> --}}
@@ -72,7 +60,7 @@
                   </h3>
                   <p class="card-text mb-auto">JSONに関する開発ツールです。開発中</a></p>
                   <a href="/json-format">ツールへ</a>
-                  </div>
+                </div>
                 {{-- <img class="card-img-right flex-auto d-none d-lg-block" data-src="holder.js/200x250?theme=thumb" alt="Card image cap"> --}}
             </div>
             </div>

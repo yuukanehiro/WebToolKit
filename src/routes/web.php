@@ -23,3 +23,11 @@ Route::prefix('your-info')->group(function () {
         Route::get('/', 'UserAgentController@show');
     });
 });
+
+// JSON整形ツール
+Route::prefix('json-format')->group(function () {
+    Route::namespace('json')->group(function () {
+        Route::get('/', 'JsonFormatController@show');
+        Route::get('/format', 'JsonFormatController@getFormatJson');
+    });
+});

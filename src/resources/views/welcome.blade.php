@@ -56,10 +56,10 @@
                 <div class="card-body d-flex flex-column align-items-start">
                   <strong class="d-inline-block mb-2 text-success">開発ツール</strong>
                   <h3 class="mb-0">
-                      <a class="text-dark" href="#">JSONツール(開発中)</a>
+                      <a class="text-dark" href="/json-format">JSONツール(開発中)</a>
                   </h3>
                   <p class="card-text mb-auto">JSONに関する開発ツールです。開発中</a></p>
-                  <a href="#">ツールへ</a>
+                  <a href="/json-format">ツールへ</a>
                 </div>
                 {{-- <img class="card-img-right flex-auto d-none d-lg-block" data-src="holder.js/200x250?theme=thumb" alt="Card image cap"> --}}
             </div>
