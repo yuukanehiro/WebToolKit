@@ -40,7 +40,6 @@
             </div>
         </header>
 
-
         <div class="container">
             <div class="panel panel-primary">
                 <div class="panel-heading">
@@ -54,41 +53,53 @@
             <p>{{{ $my_information['user_agent'] }}}</p>
         </div>
 
-        <div class="nav-scroller py-1 mb-2">
-            <nav class="nav d-flex justify-content-between">
-            <a class="p-2 text-muted" href="/your-info"><u>●アクセス情報確認【使用中のIPアドレス確認】</u></a>
-            <a class="p-2 text-muted" href="#"><u>●JSON整形ツール(開発風)</u></a>
-            </nav>
+        <div class="row mb-2">
+            <div class="col-md-6">
+            <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+                <div class="card-body d-flex flex-column align-items-start">
+                <strong class="d-inline-block mb-2 text-primary">情報取得</strong>
+                <h3 class="mb-0">
+                    <a class="text-dark" href="/your-info"><u>アクセス情報確認</u></a>
+                </h3>
+                <p class="card-text mb-auto">IPアドレスやUser Agentを確認できるツールです。</p>
+                <a href="your-info">ツールへ</a>
+                </div>
+                <img class="card-img-right flex-auto d-none d-lg-block" data-src="holder.js/200x250?theme=thumb" alt="Card image cap">
+            </div>
+            </div>
+            <div class="col-md-6">
+            <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+                <div class="card-body d-flex flex-column align-items-start">
+                <strong class="d-inline-block mb-2 text-success">開発ツール</strong>
+                <h3 class="mb-0">
+                    <a class="text-dark" href="#">JSONツール(開発中)</a>
+                </h3>
+                <p class="card-text mb-auto">JSONに関する開発ツールです。開発中</a>
+                </div>
+                <img class="card-img-right flex-auto d-none d-lg-block" data-src="holder.js/200x250?theme=thumb" alt="Card image cap">
+            </div>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <!-- Google Adsense -->
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-2081767757854767"
+                data-ad-slot="4653756802"
+                data-ad-format="auto"
+                data-full-width-responsive="true"></ins>
+            <script>
+                window.onload = function() {
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                }
+            </script>
+        </div>
       </div>
 
-      <div class="row mb-2">
-        <div class="col-md-6">
-          <div class="card flex-md-row mb-4 shadow-sm h-md-250">
-            <div class="card-body d-flex flex-column align-items-start">
-              <strong class="d-inline-block mb-2 text-primary">情報取得</strong>
-              <h3 class="mb-0">
-                <a class="text-dark" href="/your-info"><u>アクセス情報確認</u></a>
-              </h3>
-              <p class="card-text mb-auto">IPアドレスやUser Agentを確認できるツールです。</p>
-              <a href="your-info">ツールへ</a>
-            </div>
-            <img class="card-img-right flex-auto d-none d-lg-block" data-src="holder.js/200x250?theme=thumb" alt="Card image cap">
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="card flex-md-row mb-4 shadow-sm h-md-250">
-            <div class="card-body d-flex flex-column align-items-start">
-              <strong class="d-inline-block mb-2 text-success">開発ツール</strong>
-              <h3 class="mb-0">
-                <a class="text-dark" href="#">JSONツール(開発中)</a>
-              </h3>
-              <p class="card-text mb-auto">JSONに関する開発ツールです。開発中</a>
-            </div>
-            <img class="card-img-right flex-auto d-none d-lg-block" data-src="holder.js/200x250?theme=thumb" alt="Card image cap">
-          </div>
-        </div>
-      </div>
-    </div>
+
 
     <main role="main" class="container">
       <div class="row">

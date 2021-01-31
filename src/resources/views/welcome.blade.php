@@ -40,13 +40,6 @@
             </div>
         </header>
 
-        <div class="nav-scroller py-1 mb-2">
-            <nav class="nav d-flex justify-content-between">
-            <a class="p-2 text-muted" href="/your-info"><u>●アクセス情報確認【使用中のIPアドレス確認】</u></a>
-            <a class="p-2 text-muted" href="#"><u>●JSON整形ツール(開発中)</u></a>
-            </nav>
-        </div>
-
         <div class="row mb-2">
             <div class="col-md-6">
             <div class="card flex-md-row mb-4 shadow-sm h-md-250">
