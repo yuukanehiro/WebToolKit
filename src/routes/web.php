@@ -26,7 +26,7 @@ Route::prefix('your-info')->group(function () {
 
 // JSON整形ツール
 Route::prefix('json-format')->group(function () {
-    Route::namespace('json')->group(function () {
+    Route::namespace('Json')->group(function () {
         Route::get('/', 'JsonFormatController@show');
         Route::get('/format', 'JsonFormatController@getFormatJson');
     });
