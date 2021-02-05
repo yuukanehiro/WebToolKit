@@ -5,5 +5,5 @@
 JSON整形
 
 # 開発予定
-JST, UTC変換
+JST, UTC変換  
 ポート解放確認くん
